@@ -1,0 +1,26 @@
+.lang{
+    font-size: 12px;
+}
+
+.search-icon{
+    background: #ffb100;
+    width: 43px;
+    border-radius: 20px;
+    padding: 13px;
+}
+
+.spacer{
+    width: 88%;
+    float: right;
+    height: 2px;
+    background: #ffb100;
+    margin-bottom: 25px;
+}
+
+.logo{
+    margin: 15px 0px 0px 40px;
+}
+
+.nav-link {
+    font-size: 15px;
+}
