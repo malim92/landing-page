@@ -72,7 +72,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    
+
     <!-- main style sheet -->
     <link rel="stylesheet" href="css/style.css" />
     <!-- mediaquery css -->
@@ -81,7 +81,7 @@
   <body>
     <div class="row">
       <div class="col-3">
-        <a  href="#"><img class="logo" src="./assets/logo.png" alt="" /></a>
+        <a href="#"><img class="logo" src="./assets/logo.png" alt="" /></a>
       </div>
       <div class="col-9">
         <ul class="nav d-flex flex-row-reverse">
@@ -97,14 +97,16 @@
           </div>
           <div class="p-2">
             <li class="nav-item">
-              <a class="nav-link" href="#"><p class="lang">info@company.com</p></a>
+              <a class="nav-link" href="#"
+                ><p class="lang">info@company.com</p></a
+              >
             </li>
           </div>
         </ul>
         <div class="nav d-flex flex-row-reverse">
           <div class="p-2">
             <li class="nav-item">
-                <img class="search-icon" src="./assets/search.svg" alt="" />
+              <img class="search-icon" src="./assets/search.svg" alt="" />
             </li>
           </div>
           <div class="p-2">
@@ -131,5 +133,64 @@
       </div>
     </div>
     <hr class="spacer" />
+
+    <section id="slider" class="slider-area">
+      <div class="overlay"></div>
+      <!--Start Slider-->
+      <div class="container s-col">
+        <div class="row s-col">
+          <div class="col-12 s-col">
+            <div class="slider-inner"></div>
+          </div>
+        </div>
+      </div>
+      <!--End Slider-->
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex align-self-center">
+            <div class="hwr">
+              <div class="about-info">
+                <h3>About Us</h3>
+
+                <p>
+                  <span>
+                    Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy
+                    text ever since the 1500s,</span
+                  ><br />
+                  when an unknown printer took a galley of type and scrambled it
+                  to make a type specimen book. It has survived not only five
+                  centuries, but also the leap into electronic typesetting,
+                  remaining essentially unchanged. It was popularised in the
+                  1960s with the release of Letraset sheets containing Lorem
+                  Ipsum passages, and more recently with desktop publishing
+                  software like Aldus PageMaker including versions of Lorem
+                  Ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="about-img">
+              <img class="img-fluid" src="assets/image2.png" alt="" />
+              <a
+                id="play-video"
+                class="video-play-button venobox"
+                data-vbtype="video"
+                data-autoplay="true"
+                href="https://www.youtube.com/watch?v=CEW4D_CERkE"
+              >
+                <span></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
   </body>
 </html>
